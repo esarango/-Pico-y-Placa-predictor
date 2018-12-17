@@ -1,6 +1,6 @@
 # -Pico-y-Placa-predictor
 
-Pico y Placa rules
+Pico y Placa rules:
 This code will help us to predict weather or not  your car can be on the road according to the "Pico y Placa" vehicular laws in Quito-Ecuador. The laws stablished that a cars will be restrincted to be on the road at the most transited  hours a day and it will apply to different cars per day depending on the last number of their license plate.
 
 The Pico y Placa vehicular restrinctions apply all days except Saturdays, Sundays and holidays. The hours of transit restrinction are the following:
