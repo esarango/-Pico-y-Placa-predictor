@@ -16,7 +16,12 @@ Friday: 9,0.
 
 Code Set Up: 
 
-In this code you will be asked to input your complete license plate number and the output will be weather or not you can be on the road. Moreover, the calendar will be fixed according to the 2019  holiday's calendar to 
+In this code you will be asked to input your complete license plate number and the output will be weather or not you can be on the road. The code will receive as a input Full License Plate number, Date, and Time. 
+
+For the Licences Plate number it will use a split and length functions to read only the last number needed for the analysis.
+For the Date it will inserted as ISO format and performed a getDay() function into an Array that contains the day names to determine which day is being selected
+For the time is gonna be selected and taken in hh:mm format.
+
 
 
 
