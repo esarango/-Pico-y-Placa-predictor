@@ -1,4 +1,4 @@
-function picoyplaca(lastPN, wd, t)
+function picoyplaca(numLP, wd, t)
 {
     var lastPN = numLP;// Last Plate Number
     var day = wd; // Consulted week day
