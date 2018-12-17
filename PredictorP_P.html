@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <center>
+        <img src="https://www.tramitesbasicos.com/wp-content/uploads/2018/01/mapa-pico-y-placa-ecuador.jpg" width="756" height="527" alt="Pico y Placa Map">
+    </center>
+    <script>
+function processData(f1,f2){
+    var d= new Date (document.getElementById(f1).value);
+    var t= document.getElementById("field2").value;
+    var LP_number = document.getElementById("field3").value;
+    var weekday = new Array("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+    var wd = weekday[d.getDay()]; //wd=week day
+    var splitLP_number= LP_number.split("");
+    var num=splitLP_number.length
+    var numLP=splitLP_number[num-1];
+    //document.getElementById("demo").innerHTML = t;
+    //document.getElementById("demo").innerHTML = wd;
+    ////document.getElementById("demo").innerHTML = numLP;
+}
+
+        function picoyplaca(lastPN, wd, t) {
+        alert(result);
+          }
+    </script>
+</head>
+<body>
+    <center>
+        <h2>Pico y Placa Predictor</h2>
+
+        Date: <input type="date" name="field1" id="field1" /><br /><br />
+        Time: <input type="time" name="field2" id="field2" /><br /><br /-->
+        License Plate number: <input id="field3" name="field3" type="text" maxlength="8" placeholder="Insert Full License Number" />
+        <input type="button" onClick="processData('field1', 'field2', 'field3')" value="Submit" />
+        <p>Click the button to consult if your car can be on the streets.</p>
+        <p id="demo"></p>
+    </center>
+</body>
+</html>
